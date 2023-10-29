@@ -9,25 +9,25 @@ The Survey Management System is a web-based application designed to streamline t
 ## Features
 
 - **User microservice:** Secure user accounts and authentication system.
-- **survery Management Frontend:** Easily create and customize surveys with various question types.
-- **Zuul apigateway:** Share surveys via unique links or email invitations.
+- **Zuul apigateway:** API gateway for the services.
+- **Order Microservice:** Keep a track of the inventory and orders.
 
 ## Technologies Used
 
-- Frontend: [React](https://reactjs.org/), [Bootstrap](https://getbootstrap.com/)
-- Backend: [Node.js](https://nodejs.org/), [Express](https://expressjs.com/)
-- Database: [MongoDB](https://www.mongodb.com/)
+- Frontend: [Angular]
+- Backend: [Node.js]
+- Database: [MySQL]
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js and npm installed
-- MongoDB installed and running
+- MySQL installed and running
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/survey-management-system.git`
+1. Clone the repository: `git clone https://github.com/Bharath-Ganesh/survey-management-system.git`
 2. Navigate to the project directory: `cd survey-management-system`
 3. Install dependencies: `npm install`
 4. Set up environment variables: Create a `.env` file based on the provided `.env.example`.
@@ -47,7 +47,3 @@ Contributions are welcome! Follow these steps:
 3. Commit your changes: `git commit -m 'Add your feature'`
 4. Push to the branch: `git push origin feature/your-feature`
 5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
